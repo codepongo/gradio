@@ -107,3 +107,14 @@ CLAUDE.md
 # docs upload
 scripts/docs.json
 tmp_input
+
+# Swift build artifacts
+client/swift/.build/
+client/swift/*.xcodeproj/
+client/swift/*.xcworkspace/
+
+# Swift test files
+client/swift/test_example.swift
+client/swift/demo_test.swift
+client/swift/auth_test.swift
+client/swift/debug_auth.py
